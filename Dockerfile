@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
 	unzip
 RUN pip install gitpython
 
-RUN git clone https://github.com/ledriod/oppia.git
+RUN git clone https://github.com/oppia/oppia.git
 
 WORKDIR /root/opensource/oppia
 RUN git checkout master 
